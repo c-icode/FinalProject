@@ -1,0 +1,191 @@
+<html>
+    <head>
+        <title>HTML Project</title>
+	    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD 7Txa" crossorigin="anonymous"></script>
+        <style>
+            #main {
+                margin-left: 10px;
+                margin-right: 10px;
+                padding: 10px;
+                margin-top: 0px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- Nav Bar-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#">Website Name</a>
+                </div>
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">About Me</a></li>
+                  <li><a href="#">Skills</a></li>
+                  <li><a href="#">Album</a></li>
+                  <li><a href="#">My Slam Book</a></li>
+                </ul>
+              </div>
+        </nav>
+        
+        <!-- Welcome Message-->
+        <div class="jumbotron" id="main">
+            <h1>Hello Everyone,</h1>
+            <h2>I am Caleb</h2>
+            <h3>Welcome to my page!</h3>
+            <h3>Lets get connected and know each other better.</h3>
+        </div>
+
+        <!-- About Me-->
+        <div style="text-align: center; background-color: lightblue" id="main">
+            <h1> <u>About Us</u> </h1>
+            <img src="image.png" class="img-circle" width="150" height="150"> 
+            <h3>Name: Caleb</h3>
+            <h3>Age: 100</h3>
+            <h3>Email: caleb@email.com</h3>
+            <br>
+            <h2><u>My First</u></h2>
+            <h3>First Big Achievement: Spelling Bee</h3>
+            <h3>First Big Risk I Took: Swimming with Sharks</h3>
+            <h3>First Time I Felt Happy: First Time Eating Candy</h3>
+            <br>
+            <h2><u>My Favorites</u></h2>
+            <h3>Perfume: Versace</h3>
+            <h3>Music: Rock</h3>
+            <h3>Song: Birthday Song</h3>
+            <h3>Food: Pizza</h3>
+            <h3>Game: Roblox</h3>
+            <h3>Book: Geronimo Stilton</h3>
+            <h3>Hobby: Collecting Rocks</h3>
+            <br>
+            <h2><u>My Ambition</u></h2>
+            <h3>When I Grow Up I Want to be: Doctor</h3>
+            <br>
+        </div>
+
+        <!-- Skills -->
+        <div style="margin-left: 10px; margin-right: 10px">
+        <h1 style="text-align: center"><u>Skills</u></h1>
+        <h3>Photography</h3>
+        <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+            aria-valuemin="0" aria-valuemax="100" style="width:40%">
+            </div>
+          </div>
+          
+          <h3>Drawing</h3>
+          <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+            aria-valuemin="0" aria-valuemax="100" style="width:50%">
+            </div>
+          </div>
+          
+          <h3>Dancing</h3>
+          <div class="progress">
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+            aria-valuemin="0" aria-valuemax="100" style="width:60%">
+            </div>
+          </div>
+          
+          <h3>Calligraphy</h3>
+          <div class="progress">
+            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+            aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            </div>
+        </div>
+        </div>
+        <!-- Album -->
+        <div id="main">
+        <h1 style="text-align: center"><u>Album</u></h1>
+        <div class="row">
+			<div class="col-md-3 col-sm-6 col-xs-12" style="background-color: #f7fffe">
+				<img src="pic1.jpeg" class="img-responsive" style="width: 150px; height: 150px">
+				<p>Spongebob.</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12" style="background-color: #f7fffe">
+				<img src="pic2.png" class="img-responsive" style="width: 150px; height: 150px">
+				<p>My Family</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12" style="background-color: #f7fffe">
+				<img src="pic3.jpg" class="img-responsive" style="width: 150px; height: 150px">
+				<p>Plankton</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12" style="background-color: #f7fffe">
+				<img src="pic4.png" class="img-responsive" style="width: 150px; height: 150px">
+				<p>My best friend patrick.</p>
+			</div>
+		</div>
+        </div>
+
+        <!-- Form (Slam Book) -->
+        <div id="main">
+            <h1 style="text-align: center"><u>About Yourself</u></h1>
+            <form>
+                <label class="label"><strong>Parent Name</strong></label><br>
+                <h3>Name</h3>
+                <input class="form-control" type="text">
+                <h3>Email</h3>
+                <label class="label"><strong>Parent Email</strong></label><br>
+                <input class="form-control" type="email">
+                <h3>Age</h3>
+                <label class="label"><strong>Parent Number</strong></label><br>
+                <input class="form-control" type="tel">
+                <label class="label"><strong>Child Name</strong></label><br>
+                <h3>Phone Number</h3>
+                <input class="form-control" type="text">
+                <h3><strong>1. How do you feel about your child's progress?</strong></h3>
+                <input type="radio" name="q-1" value="very-satisfied"> Very Satisfied<br>
+                  <input type="radio" name="q-1" value="satisfied"> Satisfied<br>
+                  <input type="radio" name="q-1" value="neutral"> Neutral<br>
+                  <input type="radio" name="q-1" value="unsatisfied"> Unsatisfied<br>
+                  <input type="radio" name="q-1" value="veryunsatisfied"> Very Unsatisfied
+                  <h3><strong>2. How satisfied are you with our teachers and the online learning platform?</strong></h3>
+                <input type="radio" name="q-2" value="very-satisfied"> Very Satisfied<br>
+                  <input type="radio" name="q-2" value="satisfied"> Satisfied<br>
+                  <input type="radio" name="q-2" value="neutral"> Neutral<br>
+                  <input type="radio" name="q-2" value="unsatisfied"> Unsatisfied<br>
+                  <input type="radio" name="q-2" value="veryunsatisfied"> Very Unsatisfied
+                  <h3><strong>3. How satisfied are you with our security policy?</strong></h3>
+                <input type="radio" name="q-3" value="very-satisfied"> Very Satisfied<br>
+                  <input type="radio" name="q-3" value="satisfied"> Satisfied<br>
+                  <input type="radio" name="q-3" value="neutral"> Neutral<br>
+                  <input type="radio" name="q-3" value="unsatisfied"> Unsatisfied<br>
+                  <input type="radio" name="q-3" value="veryunsatisfied"> Very Unsatisfied
+                  <h3><strong>4. How do you feel about our pricing?</strong></h3>
+                <input type="radio" name="q-4" value="very-satisfied"> Very Satisfied<br>
+                  <input type="radio" name="q-4" value="satisfied"> Satisfied<br>
+                  <input type="radio" name="q-4" value="neutral"> Neutral<br>
+                  <input type="radio" name="q-4" value="unsatisfied"> Unsatisfied<br>
+                  <input type="radio" name="q-4" value="veryunsatisfied"> Very Unsatisfied
+                  <br><br><label class="label"><strong>Write a review</strong></label><br>
+                  <h3>Your Feelings For Me</h3>
+                <textarea class="form-control" rows="6"></textarea>
+                <label class="label"><strong>Would you recommend our service to your close friends?</strong></label><br>
+                <h3>Will you be my friend?</h3>
+                <select name="colse-friends" class="form-control">
+                <option selected disabled>Select Option</option>
+                  <option value="yes"> Yes</option>
+                  <option value="no">No</option>
+                </select>
+                <h3>Date</h3>
+                <label class="label"><strong>Date</strong></label><br>
+                <input class="form-control" type="text">
+                <br>
+                <br>
+                <button type="button" class="submit"><strong>Submit</strong></button>
+                <button type="button" class="reset"><strong>Reset</strong></button>
+              </form>	
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center" style="background-color: lightgray">
+            <p>Author: Caleb iCode | 
+            <a href="mailto:caleb@email.com">caleb@email.com</a> | 
+            Phone: 334-334-3334</p>
+          </footer>
+
+    </body>
+</html>
